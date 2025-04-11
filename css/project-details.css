@@ -1,0 +1,586 @@
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #212529;
+    color: white;
+    padding: 15px 20px;
+    height: 60px;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: white;
+}
+
+header p a {
+    font-size: 20px;
+}
+
+.body {
+    margin: auto;
+    width: 80%;
+}
+
+header div {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header p {
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 15.7px;
+}
+
+main {
+    flex: 1;
+}
+
+body {
+    background-color: #F8F9FA;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 16px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.content {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.project-info {
+    width: 43%;
+}
+
+.project-info p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.members {
+    width: 33%;
+}
+
+.members p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-box {
+    margin-top: 55px;
+}
+
+.search-box select {
+    font-size: 16px;
+    border-radius: 5px;
+    width: 150px;
+    min-height: 38px;
+    border: 1px solid #DEE2E6;
+}
+
+.search-box input {
+    width: 220px;
+    height: 38px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #DEE2E6;
+    padding: 10px;
+}
+
+.members p span {
+    font-weight: 500;
+    font-size: 23.5px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 23.5px;
+}
+
+.task-list {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    height: 38px;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.addMemBtn {
+    background-color: #F8F9FA;
+    color: #6C757D;
+    border: 1px solid #6C757D;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.member {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.list-member {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.more {
+    display: inline-block;
+    height: 42px;
+    width: 40px;
+    background-color: #e2e3e5;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 42px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    background-color: pink;
+}
+
+.an { 
+    background: #0D6EFD; 
+}
+
+.avatar.bn { 
+    background: #8A2BE2; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr td:first-child { 
+    text-align: left;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #f4f4f4;
+}
+
+.priority {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.low { 
+    background: #0DCAF0; 
+    color: white;
+    font-size: 11px; 
+    font-weight: bold;
+}
+
+.medium { 
+    background: #FFA500; 
+    color: white; 
+    font-size: 11px; 
+    font-weight: bold;
+}
+
+.high { 
+    background: #DC3545; 
+    color: white; 
+    font-size: 11px; 
+    font-weight: bold;
+}
+
+.start-date, .deadline {
+    color: #0D6EFD;
+}
+
+.status {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.on-track { 
+    background: #198754; 
+    color: white; 
+    font-size: 11px; 
+    font-weight: bold;
+}
+
+.risky { 
+    background: #FFA500; 
+    color: white; 
+    font-size: 11px;
+    font-weight: bold; 
+}
+
+.overdue { 
+    background: #DC3545; 
+    color: white; 
+    font-size: 11px; 
+    font-weight: bold;
+}
+
+.edit {
+    background: #FFC107;
+    border: none;
+    width: 43px;
+    height: 31px;
+    font-size: 14.12px;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.delete {
+    background: #DC3545;
+    color: white;
+    border: none;
+    width: 43px;
+    height: 31px;
+    font-size: 14.12px;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.statusNow {
+    font-size: 16px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.statusNow i {
+    font-size: 15px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.statusNow i.rotate {
+    transform: rotate(90deg);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #1a1a1a;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+/*Phần Modal*/
+.bg-modal {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    inset: 0;
+    overflow-x: hidden;
+}
+
+.addModal {
+    background-color: white;
+    width: 480px;
+    height: 760px;
+    margin: auto;
+    padding-top: 20px;
+    border-radius: 10px;
+    overflow-x: hidden;
+}
+
+.addModal p{
+    margin: 0;
+    padding: 0;
+}
+
+.addModal label {
+    margin: 0;
+}
+
+.modalForm {
+    margin: 20px 0px;
+    padding: 10px 20px;
+    border-top: 2px solid #DEE2E6;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.modalForm label {
+    font-size: 16px;
+    color: #344054;
+}
+
+.modalForm input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid #e0e1e3;
+    border-radius: 5px;
+}
+
+.modalForm select {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid #e0e1e3;
+    border-radius: 5px;
+}
+
+.addModal {
+    position: relative;
+}
+
+.addModal .title {
+    line-height: 16px;
+    padding-left: 10px;
+    font-size: 23px;
+}
+
+.addModal span {
+    font-size: 23px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: #818181;
+    cursor: pointer;
+}
+
+.addModal div {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.addModal .cancel {
+    width: 58px;
+    height: 37px;
+    background-color: #6c757d;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.addModal .save {
+    width: 58px;
+    height: 37px;
+    background-color: #0D6EFD;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* modal thêm thành viên*/
+.addMemModal {
+    background-color: white;
+    width: 480px;
+    height: 345px;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.addMemModal span {
+    font-size: 23px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: #818181;
+    cursor: pointer;
+}
+
+.addMemModal p {
+    line-height: 16px;
+    padding-left: 10px;
+    font-size: 23px;
+}
+
+.addMemModal div {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.addMemModal .cancel {
+    width: 58px;
+    height: 37px;
+    background-color: #6c757d;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.addMemModal .save {
+    width: 58px;
+    height: 37px;
+    background-color: #0D6EFD;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.addMemModal input {
+    height: 44px;
+}
+
+/*modal xác nhận xóa*/
+.confirmModal {
+    position: relative;
+}
+
+.confirmModal p {
+    line-height: 16px;
+    padding-left: 10px;
+    font-size: 23px;
+    padding-top: 10px;
+}
+
+.confirmModal span {
+    font-size: 23px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: #818181;
+    cursor: pointer;
+}
+
+.confirmModal div {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.confirmModal .cancel {
+    width: 58px;
+    height: 37px;
+    background-color: #6c757d;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.confirmModal {
+    background-color: white;
+    width: 480px;
+    height: 230px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 0px;
+    border-radius: 10px;
+}
+
+.confirmDelete{
+    width: 58px;
+    height: 37px;
+    background: #DC3545;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+/* giao diện lỗi nhập */
+input.error,select.error {
+    border: 2px solid red;
+}
+
+.error-message {
+    font-weight: 400;
+    font-size: 13px !important;
+    color: red;
+    text-align: left;
+    margin-bottom: 8px;
+    display: block;
+    padding-left: 0px;
+}

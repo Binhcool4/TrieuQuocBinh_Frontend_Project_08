@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 800px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #E3E3E3;
+}
+footer{
+    text-align: center;
+}
+label{
+    text-align: left;
+}
+.title{
+    text-align: center;
+    margin: 50px;
+    font-size: 52px;
+}
+form{
+    margin: auto;
+    padding: 25px 30px;
+    border-radius: 25px;
+    width: 533px;
+    height: 480px;
+    background-color: white;
+}
+
+label{
+    font-weight: 500;
+}
+
+input{
+    font-size: 16px;
+    border: 1px solid #E4E4E7;
+    text-align: center;
+    margin: 12.5px 0px;
+    border-radius: 10px;
+    width: 472px;
+    height: 65px;
+}
+button{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    width: 472px;
+    height: 65px;
+    color: white;
+    background-color: #0D6EFD;
+    cursor: pointer;
+}
+form p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #71717A;
+}
+a{
+    text-decoration: none;
+    color: #0D6EFD;
+}
+input::placeholder { 
+    color: #52525b;     
+}
+
+/* giao diện lỗi nhập */
+/* input.error {
+    border: 2px solid red;
+} */
+
+.error-message {
+    display: none;
+    font-weight: 500;
+    font-size: 13px;
+    color: red;
+    text-align: left;
+    margin-left: 10px;
+}
