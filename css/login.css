@@ -69,10 +69,6 @@ input::placeholder {
 }
 
 /* giao diện lỗi nhập */
-/* input.error {
-    border: 2px solid red;
-} */
-
 .error-message {
     display: none;
     font-weight: 500;
