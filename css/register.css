@@ -3,6 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
 body{
     height: 800px;
     font-family: "Poppins", sans-serif;
@@ -10,13 +11,16 @@ body{
     font-style: normal;
     background-color: #E3E3E3;
 }
+
 .content{
     text-align: center;
 }
+
 .title{
     margin: 50px;
     font-size: 52px;
 }
+
 form{
     margin: auto;
     padding: 25px 30px;
@@ -25,6 +29,7 @@ form{
     height: 600px;
     background-color: white;
 }
+
 input{
     font-size: 16px;
     border: 1px solid #E4E4E7;
@@ -34,6 +39,7 @@ input{
     width: 472px;
     height: 65px;
 }
+
 button{
     margin-bottom: 20px;
     margin-top: 50px;
@@ -46,15 +52,18 @@ button{
     background-color: #0D6EFD;
     cursor: pointer;
 }
+
 form p {
     font-size: 15px;
     font-weight: 500;
     color: #71717A;
 }
+
 a{
     text-decoration: none;
-    color: #0D6EFD;
+    color: blue;
 }
+
 input::placeholder { 
     color: #52525b;   
     text-align: center;  
