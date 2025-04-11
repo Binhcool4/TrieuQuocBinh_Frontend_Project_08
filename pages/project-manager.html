@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Dự Án</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/project-manager.css">
+</head>
+<body>
+    <header>
+        <div>
+            <p><a href="../pages/project-manager.html">Quản Lý Dự Án</a></p>
+            <ul>
+                <li><a href="#">Dự Án</a></li>
+                <li><a href="../pages/personal-mission.html" style="color: #9b9d9f;">Nhiệm Vụ của tôi</a></li>
+                <li><a href="../pages/login.html">Đăng Xuất</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="project-container">
+            <h3>Quản Lý Dự Án Nhóm</h3>
+            <div class="data-entry">
+                <button class="add-project">+ Thêm Dự Án</button>
+                <input type="text" placeholder="Tìm kiếm dự án" class="search-box">
+            </div>
+            <h4>Danh Sách Dự Án</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th style="text-align: left;">Tên Dự Án</th>
+                        <th>Hành Động</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- <tr>
+                        <td>1</td>
+                        <td>Xây dựng website thương mại điện tử</td>
+                        <td>
+                            <button class="edit">Sửa</button>
+                            <button class="delete">Xóa</button>
+                            <button class="details"><a href="../pages/project-details.html">Chi tiết</a></button>
+                        </td>
+                    </tr> -->
+                </tbody>
+            </table>
+        </section>
+        <div class="pagination">
+            <!-- <span class="prev">&lt;</span>
+            <span class="active">1</span>
+            <span>2</span>
+            <span>3</span>
+            <span class="next">&gt;</span> -->
+        </div>
+    </main>
+    <section class="bg-modal" style="display: none;">
+        <div class="modal">
+            <p>Thêm/sửa dự án</p><span><i class="fa-solid fa-x"></i></span>
+            <form action="" class="modalForm">
+                <label for="projectName">Tên dự án</label><br>
+                <input type="text" name="projectName" id="projectName"><br>
+                <p class="error-message"></p>
+                <label for="projectDescription">Mô tả dự án</label><br>
+                <textarea name="projectDescription" id="projectDescription" cols="30"></textarea>
+                <p class="error-message"></p>
+            </form>
+            <div>
+                <button class="cancel" type="button">Hủy</button>
+                <button class="save" type="button">Lưu</button>
+            </div>
+        </div>
+    </section>
+    <section class="bg-modal" style="display: none;">
+        <div class="confirmModal">
+            <p>Xác nhận xóa</p><span><i class="fa-solid fa-x"></i></span>
+            <form action="" class="modalForm">
+                <p style="height: 55px; font-size: 16px;">Bạn chắc chắn muốn xóa dự án này</p>
+            </form>
+            <div>
+                <button class="cancel" type="button">Hủy</button>
+                <button class="cancel" style="background-color: #dc3545;" type="button">Xóa</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>© 2025 Team management. All rights reserved.</p>
+    </footer>
+    <script src="../js/project-manager.js"></script>
+</body>
+</html>

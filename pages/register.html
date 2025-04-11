@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+    <div class="content">
+        <p class="title">Đăng ký</p>
+        <div class="form">
+            <form>
+                <div class="input-group">
+                    <input  type="text" name="username" id="username" placeholder="Họ và Tên">
+                    <p class="error-message"></p>
+                </div>
+                <div class="input-group">
+                    <input  type="email" name="email" id="email" placeholder="Địa chỉ email">
+                    <p class="error-message"></p>
+                </div>
+                <div class="input-group">
+                    <input  type="password" name="pass" id="pass" placeholder="Mật khẩu">
+                    <p class="error-message"></p>
+                </div>
+                <div class="input-group">
+                    <input  type="password" name="confirmPass" id="confirmPass" placeholder="Xác nhận mật khẩu">
+                    <p class="error-message"></p>
+                </div>
+                <button type="button">Đăng ký</button>
+                <p>Đã có tài khoản? <a href="../pages/login.html">Đăng nhập</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="../js/register.js"></script>
+</body>
+</html>
