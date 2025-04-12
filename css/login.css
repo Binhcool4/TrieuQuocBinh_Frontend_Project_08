@@ -1,27 +1,32 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
-body{
+
+body {
     height: 800px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
     background-color: #E3E3E3;
 }
-footer{
+
+footer {
     text-align: center;
 }
-label{
+
+label {
     text-align: left;
 }
-.title{
+
+.title {
     text-align: center;
     margin: 50px;
     font-size: 52px;
 }
-form{
+
+form {
     margin: auto;
     padding: 25px 30px;
     border-radius: 25px;
@@ -30,11 +35,11 @@ form{
     background-color: white;
 }
 
-label{
+label {
     font-weight: 500;
 }
 
-input{
+input {
     font-size: 16px;
     border: 1px solid #E4E4E7;
     text-align: center;
@@ -43,7 +48,8 @@ input{
     width: 472px;
     height: 55px;
 }
-button{
+
+button {
     margin-bottom: 20px;
     margin-top: 68px;
     border-radius: 10px;
@@ -55,15 +61,18 @@ button{
     background-color: #0D6EFD;
     cursor: pointer;
 }
+
 form p {
     font-size: 15px;
     font-weight: 500;
     color: #71717A;
 }
-a{
+
+a {
     text-decoration: none;
     color: blue;
 }
+
 input::placeholder { 
     color: #52525b;     
 }

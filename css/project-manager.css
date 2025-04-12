@@ -17,7 +17,7 @@ header {
     color: white;
     padding: 15px 20px;
 }
-header div{
+header div {
     margin: auto;
     width: 80%;
     display: flex;
@@ -27,7 +27,7 @@ header div{
 header p {
     font-size: 20px;
 }
-header p a{
+header p a {
     font-size: 20px;
 }
 ul{
@@ -52,13 +52,14 @@ main {
     align-items: center;
     padding: 20px;
 }
-h3{
+
+h3 {
     margin: 10px 0;
     font-size: 23.59px;
     font-weight: 500;
 }
 
-.data-entry{
+.data-entry {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -101,7 +102,7 @@ input::placeholder {
     color: #dee2e6;
   }
   
-h4{
+h4 {
     font-size: 20px;
     margin: 10px 0;
     font-weight: 500;
@@ -117,7 +118,8 @@ thead {
     background-color: black;
     color: white;
 }
-th{
+
+th {
     padding: 10px;
     border: 2px solid #dee2e6;
 }
@@ -127,12 +129,12 @@ td {
     border: 2px solid #dee2e6;
 }
 
-td:first-child{
+td:first-child {
     width: 8%;
     text-align: center;
 }
 
-th:last-child, td:last-child{
+th:last-child, td:last-child {
     width: 20%;
     text-align: center;
 }
@@ -205,7 +207,7 @@ button {
     background-color: #007bff;
     color: white;
 }
-.disabled{
+.disabled {
     background-color: #E9ECEF !important;
     color: #D9DFE4 !important;
 }
@@ -218,13 +220,13 @@ footer {
     margin-top: auto;
 }
 
-.bg-modal{
+.bg-modal {
     background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
     inset: 0;
 }
 
-.modal{
+.modal {
     background-color: white;
     width: 480px;
     height: 398px;
@@ -233,7 +235,8 @@ footer {
     padding: 20px 0px;
     border-radius: 10px;
 }
-.confirmModal{
+
+.confirmModal {
     background-color: white;
     width: 480px;
     height: 230px;
@@ -243,18 +246,19 @@ footer {
     border-radius: 10px;
 }
 
-.modalForm{
+.modalForm {
     margin: 20px 0px;
     padding: 20px;
     border-top: 2px solid #DEE2E6;
     border-bottom: 2px solid #dee2e6;
 }
-.modalForm label{
+
+.modalForm label {
     font-size: 16px;
     color: #344054;
 }
 
-.modalForm input{
+.modalForm input {
     width: 100%;
     height: 44px;
     padding: 10px;
@@ -262,7 +266,8 @@ footer {
     border: 1px solid #e0e1e3;
     border-radius: 5px;
 }
-.modalForm textarea{
+
+.modalForm textarea {
     height: 80px;
     width: 100%;
     margin: 10px 0px;
@@ -274,12 +279,14 @@ footer {
 .modal {
     position: relative;
 }
-.modal p{
+
+.modal p {
     line-height: 16px;
     padding-left: 10px;
     font-size: 23px;
 }
-.modal span{
+
+.modal span {
     font-size: 23px;
     position: absolute;
     top: 15px;
@@ -291,12 +298,14 @@ footer {
 .confirmModal {
     position: relative;
 }
-.confirmModal p{
+
+.confirmModal p {
     line-height: 16px;
     padding-left: 10px;
     font-size: 23px;
 }
-.confirmModal span{
+
+.confirmModal span {
     font-size: 23px;
     position: absolute;
     top: 15px;
@@ -305,15 +314,17 @@ footer {
     cursor: pointer;
 }
 
-.modal div{
+.modal div {
     text-align: right;
     margin-right: 20px;
 }
-.confirmModal div{
+
+.confirmModal div {
     text-align: right;
     margin-right: 20px;
 }
-.modal .cancel{
+
+.modal .cancel {
     width: 58px;
     height: 37px;
     background-color: #6c757d;
@@ -322,7 +333,7 @@ footer {
     border-radius: 10px;
 }
 
-.confirmModal .cancel{
+.confirmModal .cancel {
     width: 58px;
     height: 37px;
     background-color: #6c757d;
@@ -331,7 +342,7 @@ footer {
     border-radius: 10px;
 }
 
-.modal .save{
+.modal .save {
     width: 58px;
     height: 37px;
     background-color: #0D6EFD;
@@ -353,7 +364,7 @@ input.error {
     padding-left: 0px !important;
 }
 
-.fa-solid.fa-box-open{
+.fa-solid.fa-box-open {
     margin-top: 10px;
     font-size: 20px;
 }
