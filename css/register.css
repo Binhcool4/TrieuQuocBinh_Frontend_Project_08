@@ -3,7 +3,6 @@
     margin: 0px;
     box-sizing: border-box;
 }
-
 body{
     height: 800px;
     font-family: "Poppins", sans-serif;
@@ -11,25 +10,21 @@ body{
     font-style: normal;
     background-color: #E3E3E3;
 }
-
 .content{
     text-align: center;
 }
-
 .title{
     margin: 50px;
     font-size: 52px;
 }
-
 form{
     margin: auto;
     padding: 25px 30px;
     border-radius: 25px;
     width: 533px;
-    height: 600px;
+    height: 550px;
     background-color: white;
 }
-
 input{
     font-size: 16px;
     border: 1px solid #E4E4E7;
@@ -37,33 +32,29 @@ input{
     margin: 12.5px 0px;
     border-radius: 10px;
     width: 472px;
-    height: 65px;
+    height: 50px;
 }
-
 button{
     margin-bottom: 20px;
-    margin-top: 50px;
+    margin-top: 68px;
     border-radius: 10px;
     font-size: 16px;
     border: none;
     width: 472px;
-    height: 65px;
+    height: 50px;
     color: white;
     background-color: #0D6EFD;
     cursor: pointer;
 }
-
 form p {
     font-size: 15px;
     font-weight: 500;
     color: #71717A;
 }
-
 a{
     text-decoration: none;
-    color: blue;
+    color: #0D6EFD;
 }
-
 input::placeholder { 
     color: #52525b;   
     text-align: center;  

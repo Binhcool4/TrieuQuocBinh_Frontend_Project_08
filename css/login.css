@@ -3,7 +3,6 @@
     margin: 0px;
     box-sizing: border-box;
 }
-
 body{
     height: 800px;
     font-family: "Poppins", sans-serif;
@@ -11,27 +10,23 @@ body{
     font-style: normal;
     background-color: #E3E3E3;
 }
-
 footer{
     text-align: center;
 }
-
 label{
     text-align: left;
 }
-
 .title{
     text-align: center;
     margin: 50px;
     font-size: 52px;
 }
-
 form{
     margin: auto;
     padding: 25px 30px;
     border-radius: 25px;
     width: 533px;
-    height: 480px;
+    height: 440px;
     background-color: white;
 }
 
@@ -46,38 +41,35 @@ input{
     margin: 12.5px 0px;
     border-radius: 10px;
     width: 472px;
-    height: 65px;
+    height: 55px;
 }
-
 button{
     margin-bottom: 20px;
-    margin-top: 50px;
+    margin-top: 68px;
     border-radius: 10px;
     font-size: 16px;
     border: none;
     width: 472px;
-    height: 65px;
+    height: 50px;
     color: white;
     background-color: #0D6EFD;
     cursor: pointer;
 }
-
 form p {
     font-size: 15px;
     font-weight: 500;
     color: #71717A;
 }
-
 a{
     text-decoration: none;
     color: blue;
 }
-
 input::placeholder { 
     color: #52525b;     
 }
 
 /* giao diện lỗi nhập */
+
 .error-message {
     display: none;
     font-weight: 500;
